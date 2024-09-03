@@ -112,7 +112,7 @@ The Sales Metrics Report provided the client with a clear and comprehensive view
 
 ### To help the client effectively use the Power BI template for new sales datasets, here are the steps they can follow for both scenarios: (1) when the datasets are in a folder, and (2) when they are all in one dataset.
 
-#### Scenario 1: Monthly Datasets Stored in a Folder
+### Scenario 1: Monthly Datasets Stored in a Folder
 If the client stores individual monthly datasets as separate files within a single folder, the following steps should be followed to update the Power BI report:
 
 #### 1. Organize the Folder:
@@ -136,7 +136,7 @@ If the client stores individual monthly datasets as separate files within a sing
 - Save the updated report in Power BI.
 - The client can then distribute the report or publish it to Power BI Service for easy online access.
 
-#### Scenario 2: All Monthly Data Combined into a Single Dataset
+### Scenario 2: All Monthly Data Combined into a Single Dataset
 If the client combines all monthly data into a single dataset (e.g., an Excel or CSV file), the following steps should be taken:
 
 #### 1. Replace the Existing Dataset:
