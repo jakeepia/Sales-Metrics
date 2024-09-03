@@ -96,6 +96,7 @@ CALCULATE(
 
 ## Data Model and Time Intelligence:
 ![](model_view.JPG)
+
 A custom calendar table was created to implement time intelligence, ensuring accurate date-based calculations. The calendar table was linked to the sales data with a 1-to-many relationship, allowing for dynamic analysis of the data across various time periods (MTD, QTD, YTD).
 
 ## Visualizations:
