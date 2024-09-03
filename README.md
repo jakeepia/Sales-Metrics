@@ -94,5 +94,17 @@ CALCULATE(
  <pre> Total Amount Sold = [Total Amount in EUR]
    </pre>
 
+## Data Model and Time Intelligence:
+
+A custom calendar table was created to implement time intelligence, ensuring accurate date-based calculations. The calendar table was linked to the sales data with a 1-to-many relationship, allowing for dynamic analysis of the data across various time periods (MTD, QTD, YTD).
+
+## Visualizations:
+
+- KPI Dashboard: The dashboard includes key visualizations such as line charts, bar charts, and KPI cards to display sales metrics like total sales, active stores, unique items sold, and more.
+- Top 3 and Bottom 3 Products: Special visualizations were created to highlight the top 3 and bottom 3 performing products, providing the client with insights into their best and worst sellers.
+- Currency Standardization: Sales data from different currencies were converted to EUR using a predefined conversion rate, ensuring consistent reporting across the dataset.
+
+### Outcome:
+The Sales Metrics Report provided the client with a clear and comprehensive view of their sales performance. The dynamic dashboard and DAX measures allowed for easy tracking of KPIs, enabling the client to make informed decisions based on real-time data. The template created is also scalable, allowing the client to continue using it for future sales datasets with minimal adjustments.
 
 
