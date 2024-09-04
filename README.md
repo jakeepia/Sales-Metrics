@@ -2,7 +2,8 @@
 
 
 ## Project Overview:
-This project involved creating a comprehensive Sales Metrics Report for a client who required a detailed analysis of their sales performance using Power BI. The report was designed to measure key performance indicators (KPIs) over a one-month period and to be used as a template for ongoing future sales dataset reports. The client's objective was to gain actionable insights from their sales data, which included visualizations and DAX measures to evaluate sales performance across various dimensions.
+This project involved creating a comprehensive Sales Metrics Report for a client who required a detailed analysis of their sales performance using Power BI. The report was designed to measure key performance indicators (KPIs) over a one-month period and to be used as a template for ongoing future sales dataset reports. The client's objective was to gain actionable insights from their sales data, which included visualizations and DAX measures to evaluate sales performance across various dimensions.<br> 
+The dataset used for this analysis is attached for reference.
 
 ### Project Objectives:
 - Develop a Power BI dashboard that effectively visualizes key sales metrics.
@@ -110,7 +111,7 @@ A custom calendar table was created to implement time intelligence, ensuring acc
 ## Outcome:
 The Sales Metrics Report provided the client with a clear and comprehensive view of their sales performance. The dynamic dashboard and DAX measures allowed for easy tracking of KPIs, enabling the client to make informed decisions based on real-time data. The template created is also scalable, allowing the client to continue using it for future sales datasets with minimal adjustments.
 
-### To help the client effectively use the Power BI template for new sales datasets, here are the steps they can follow for both scenarios: (1) when the datasets are in a folder, and (2) when they are all in one dataset.
+## To help the client effectively use the Power BI template for new sales datasets, here are the steps they can follow for both scenarios: (1) when the datasets are in a folder, and (2) when they are all in one dataset.
 
 ### Scenario 1: Monthly Datasets Stored in a Folder
 If the client stores individual monthly datasets as separate files within a single folder, the following steps should be followed to update the Power BI report:
