@@ -1,6 +1,5 @@
 # Sales Metrics Report for KPI Measurement
 
-
 ## Project Overview:
 This project involved creating a comprehensive Sales Metrics Report for a client who required a detailed analysis of their sales performance using Power BI. The report was designed to measure key performance indicators (KPIs) over a one-month period and to be used as a template for ongoing future sales dataset reports. The client's objective was to gain actionable insights from their sales data, which included visualizations and DAX measures to evaluate sales performance across various dimensions.<br> 
 The dataset used for this analysis is attached for reference.
@@ -14,7 +13,7 @@ The dataset used for this analysis is attached for reference.
 
 ## Key DAX Measures Created:
 
-- *Sales for the Current Month:*
+- **_Sales for the Current Month:_**
  <pre> Sales for the Current Month = 
 CALCULATE(
     [Total Amount in EUR],
