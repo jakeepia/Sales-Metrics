@@ -20,14 +20,14 @@ CALCULATE(
     DATESMTD('Calendar'[Date])
 )  </pre>
 
-- *Sales for the Current Quarter:*
+- **_Sales for the Current Quarter:_**
  <pre> Sales for the Current Quarter = 
 CALCULATE(
     [Total Amount in EUR],
     DATESQTD('Calendar'[Date])
 ) </pre>
 
-- *Total Sales MTD (Month-to-Date) vs Same Period Last Year (MTD LY):*
+- **_Total Sales MTD (Month-to-Date) vs Same Period Last Year (MTD LY):_**
  <pre> Total Sales MTD = 
 CALCULATE(
     [Total Amount in EUR],
@@ -40,7 +40,7 @@ CALCULATE(
     SAMEPERIODLASTYEAR(DATESMTD('Calendar'[Date]))
 ) </pre>
 
-- *Total Sales QTD (Quarter-to-Date) vs Same Period Last Year (QTD LY):*
+- **_Total Sales QTD (Quarter-to-Date) vs Same Period Last Year (QTD LY):_**
  <pre> Total Sales QTD = 
 CALCULATE(
     [Total Amount in EUR],
@@ -53,7 +53,7 @@ CALCULATE(
     SAMEPERIODLASTYEAR(DATESQTD('Calendar'[Date]))
 ) </pre>
 
-- *Total Sales YTD (Year-to-Date) vs Same Period Last Year (YTD LY):*
+- **_Total Sales YTD (Year-to-Date) vs Same Period Last Year (YTD LY):_**
  <pre> Total Sales YTD = 
 CALCULATE(
     [Total Amount in EUR],
@@ -66,31 +66,31 @@ CALCULATE(
     SAMEPERIODLASTYEAR(DATESYTD('Calendar'[Date]))
 ) </pre>
 
-- *Active Stores:*
+- **_Active Stores:_**
  <pre> Active Stores = DISTINCTCOUNT('Sheet1'[Store])
    </pre>
 
-- *Active Customers:*
+- **_Active Customers:_**
  <pre> Active Customers = DISTINCTCOUNT('Sheet1'[Customer])
    </pre>
 
-- *Unique Items Sold:*
+- **_Unique Items Sold:_**
  <pre> Unique Items Sold = DISTINCTCOUNT('Sheet1'[Product No])
    </pre>
 
-- *Total Quantity Sold:*
+- **_Total Quantity Sold:_**
  <pre> Total Quantity Sold = SUM('Sheet1'[QTY])
    </pre>
 
-- *Total Transactions:*
+- **_Total Transactions:_**
  <pre> Total Transactions = COUNTROWS('Sheet1')
    </pre>
 
-- *Total Amount in EUR:*
+- **_Total Amount in EUR:_**
  <pre> Total Amount in EUR = SUMX('Sheet1', 'Sheet1'[QTY] * 'Sheet1'[PRICE in EUR])
    </pre>
  
-- *Total Amount Sold:*
+- **_Total Amount Sold:_**
  <pre> Total Amount Sold = [Total Amount in EUR]
    </pre>
 
@@ -101,9 +101,9 @@ A custom calendar table was created to implement time intelligence, ensuring acc
 
 ## Visualizations:
 ![](dashboard_1.JPG)
-- KPI Dashboard: The dashboard includes key visualizations such as line charts, bar charts, and KPI cards to display sales metrics like total sales, active stores, unique items sold, and more.
-- Top 3 and Bottom 3 Products: Special visualizations were created to highlight the top 3 and bottom 3 performing products, providing the client with insights into their best and worst sellers.
-- Currency Standardization: Sales data from different currencies were converted to EUR using a predefined conversion rate, ensuring consistent reporting across the dataset.
+- **KPI Dashboard:** The dashboard includes key visualizations such as line charts, bar charts, and KPI cards to display sales metrics like total sales, active stores, unique items sold, and more.
+- **Top 3 and Bottom 3 Products:** Special visualizations were created to highlight the top 3 and bottom 3 performing products, providing the client with insights into their best and worst sellers.
+- **Currency Standardization:** Sales data from different currencies were converted to EUR using a predefined conversion rate, ensuring consistent reporting across the dataset.
 
 ![](dashboard_2.JPG)
 
