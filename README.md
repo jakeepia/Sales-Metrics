@@ -9,7 +9,7 @@ The client's objective was to gain actionable insights from their sales data, wh
 - Create DAX measures for calculating sales performance on a monthly, quarterly, and yearly basis.
 - Implement time intelligence in the data model using a custom calendar table.
 - Provide insights on the top 3 and bottom 3 performing products.
-- Standardize sales amounts across different currencies using a conversion rate to EUR.
+- Standardize sales amounts across different currencies using a conversion rate to EUR. 
 
 ## Key DAX Measures Created:
 
