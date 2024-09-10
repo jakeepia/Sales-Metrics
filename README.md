@@ -4,7 +4,7 @@
 This project involved creating a comprehensive Sales Metrics Report for a client who required a detailed analysis of their sales performance using **Power BI**. The report was designed to measure key performance indicators (KPIs) over a one-month period and to be used as a template for ongoing future sales dataset reports. <br>
 The client's objective was to gain actionable insights from their sales data, which included visualizations and DAX measures to evaluate sales performance across various dimensions.<br> 
 
-### Project Objectives:
+### Project Objectives: 
 - Develop a Power BI dashboard that effectively visualizes key sales metrics.
 - Create DAX measures for calculating sales performance on a monthly, quarterly, and yearly basis.
 - Implement time intelligence in the data model using a custom calendar table.
