@@ -8,6 +8,7 @@ The client's objective was to gain actionable insights from their sales data, wh
 - Develop a Power BI dashboard that effectively visualizes key sales metrics.
 - Create DAX measures for calculating sales performance on a monthly, quarterly, and yearly basis.
 - Implement time intelligence in the data model using a custom calendar table.
+- Create columns to sort fields like months chronologically in charts.
 - Provide insights on the top 3 and bottom 3 performing products.
 - Standardize sales amounts across different currencies using a conversion rate to EUR. 
 
