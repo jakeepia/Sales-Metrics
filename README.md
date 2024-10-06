@@ -100,7 +100,7 @@ CALCULATE(
 
 A custom calendar table was created to implement time intelligence, ensuring accurate date-based calculations. The calendar table was linked to the sales data with a 1-to-many relationship, allowing for dynamic analysis of the data across various time periods (MTD, QTD, YTD).
 
-## Visualizations:
+## Dashboard:
 ![](dashboard_1.JPG)
 - **KPI Dashboard:** The dashboard includes key visualizations such as line charts, bar charts, and KPI cards to display sales metrics like total sales, active stores, unique items sold, and more.
 - **Top 3 and Bottom 3 Products:** Special visualizations were created to highlight the top 3 and bottom 3 performing products, providing the client with insights into their best and worst sellers.
