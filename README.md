@@ -15,85 +15,26 @@ The client's objective was to gain actionable insights from their sales data, wh
 ## Key DAX Measures Created:
 
 - **_Sales for the Current Month:_**
- <pre> Sales for the Current Month = 
-CALCULATE(
-    [Total Amount in EUR],
-    DATESMTD('Calendar'[Date])
-)  </pre>
 
 - **_Sales for the Current Quarter:_**
- <pre> Sales for the Current Quarter = 
-CALCULATE(
-    [Total Amount in EUR],
-    DATESQTD('Calendar'[Date])
-) </pre>
 
 - **_Total Sales MTD (Month-to-Date) vs Same Period Last Year (MTD LY):_**
- <pre> Total Sales MTD = 
-CALCULATE(
-    [Total Amount in EUR],
-    DATESMTD('Calendar'[Date])
-)
-
-Total Sales MTD LY = 
-CALCULATE(
-    [Total Amount in EUR],
-    SAMEPERIODLASTYEAR(DATESMTD('Calendar'[Date]))
-) </pre>
 
 - **_Total Sales QTD (Quarter-to-Date) vs Same Period Last Year (QTD LY):_**
- <pre> Total Sales QTD = 
-CALCULATE(
-    [Total Amount in EUR],
-    DATESQTD('Calendar'[Date])
-)
-
-Total Sales QTD LY = 
-CALCULATE(
-    [Total Amount in EUR],
-    SAMEPERIODLASTYEAR(DATESQTD('Calendar'[Date]))
-) </pre>
 
 - **_Total Sales YTD (Year-to-Date) vs Same Period Last Year (YTD LY):_**
- <pre> Total Sales YTD = 
-CALCULATE(
-    [Total Amount in EUR],
-    DATESYTD('Calendar'[Date])
-)
-
-Total Sales YTD LY = 
-CALCULATE(
-    [Total Amount in EUR],
-    SAMEPERIODLASTYEAR(DATESYTD('Calendar'[Date]))
-) </pre>
-
-- **_Active Stores:_**
- <pre> Active Stores = DISTINCTCOUNT('Sheet1'[Store])
-   </pre>
 
 - **_Active Customers:_**
- <pre> Active Customers = DISTINCTCOUNT('Sheet1'[Customer])
-   </pre>
 
 - **_Unique Items Sold:_**
- <pre> Unique Items Sold = DISTINCTCOUNT('Sheet1'[Product No])
-   </pre>
-
+  
 - **_Total Quantity Sold:_**
- <pre> Total Quantity Sold = SUM('Sheet1'[QTY])
-   </pre>
 
 - **_Total Transactions:_**
- <pre> Total Transactions = COUNTROWS('Sheet1')
-   </pre>
 
 - **_Total Amount in EUR:_**
- <pre> Total Amount in EUR = SUMX('Sheet1', 'Sheet1'[QTY] * 'Sheet1'[PRICE in EUR])
-   </pre>
- 
+
 - **_Total Amount Sold:_**
- <pre> Total Amount Sold = [Total Amount in EUR]
-   </pre>
 
 ## Data Model and Time Intelligence:
 ![](model_view1.JPG)
